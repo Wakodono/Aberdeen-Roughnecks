@@ -1,25 +1,6 @@
 /* Add the reset styles */
 
-/* Reset margins and padding */
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-dl,
-dd,
-ol,
-ul,
-figure,
-hr,
-table,
-fieldset,
-address {
+* {
   margin: 0;
   padding: 0;
 }
@@ -57,4 +38,63 @@ a {
 img {
   border: 0;
   max-width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: black;
+}
+
+nav .container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+nav .title {
+  flex: 0 0 auto;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  align-items: baseline;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+
+nav li:last-child a {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: red;
 }
