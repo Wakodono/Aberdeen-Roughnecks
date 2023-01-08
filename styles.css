@@ -1,0 +1,60 @@
+/* Add the reset styles */
+
+/* Reset margins and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+figure,
+hr,
+table,
+fieldset,
+address {
+  margin: 0;
+  padding: 0;
+}
+
+/* Reset font-size, font-family, and font-weight */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+/* Reset headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/* Reset lists */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Reset links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Reset images */
+img {
+  border: 0;
+  max-width: 100%;
+}
