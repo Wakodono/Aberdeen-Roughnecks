@@ -46,6 +46,10 @@ html {
   font-size: 16px;
 }
 
+p {
+  min-width: 400px;
+}
+
 .banner {
   background-image: url("./images/helmet-banner.jpeg");
   background-position: center;
@@ -143,6 +147,13 @@ main h1 {
   flex-wrap: wrap;
   align-items: center;
   text-align: center;
+  overflow: hidden;
+}
+
+.info-section img {
+  height: auto;
+  display: block;
+  max-width: 100%;
 }
 
 .info-section h2 {
